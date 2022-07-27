@@ -11,7 +11,7 @@
     
     | Symbol | Usage |
     |----------|---------|
-    |lib_weglot.weglotkey.secret  | The Weglot API key you will find in the Weglot dashbaord for your project |
+    |lib_weglot.weglotkey.secret  | The Weglot API key you will find in the Weglot dashboard for your project |
     
     '
   corsOrigin: =Origin
