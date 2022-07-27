@@ -1,0 +1,32 @@
+comment: This Shared Action must be invoked in your app to initilize Weglot
+↓InstallScript [ngx.components.UICustomAction-1658767465472]: 
+  actionValue: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+      - com.twinsoft.convertigo.beans.common.FormatedContent: 
+        →: |
+          '		page.c8o.log.debug(''[MB] ''+ props.actionFunction +'': ''+ props.actionName);
+          		
+          		let elt = document.createElement("script")
+          		elt.setAttribute("src", "https://cdn.weglot.com/weglot.min.js")
+          		elt.setAttribute("type", "text/javascript")
+          		document.getElementsByTagName("html")[0]
+          			.getElementsByTagName("head")[0]
+          			.appendChild(elt)
+          		resolve();
+          '
+  ↓CallSequence [ngx.components.UIDynamicAction-1658938320731]: 
+    beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_Weglot.GetWeglotKey"}'
+    ↓InitAndSetupKey [ngx.components.UICustomAction-1658932989132]: 
+      actionValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+          - com.twinsoft.convertigo.beans.common.FormatedContent: 
+            →: |
+              '			setTimeout(()=> {
+              				window[''Weglot''].initialize({ 
+              					api_key: props.stack[''CallSequence''].out.weglotKey
+              				})
+              				resolve();
+              			}, 0)
+              '

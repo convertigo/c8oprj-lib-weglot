@@ -1,0 +1,4 @@
+accessibility: Hidden
+↓Element [steps.XMLElementStep-1658938250846]: 
+  nodeName: weglotKey
+  nodeText: ${lib_weglot.weglotkey.secret}
