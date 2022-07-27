@@ -14,16 +14,38 @@ To use this library you will have to configure the following symbols in the Admi
 | Symbol | Usage |
 |----------|---------|
 |lib_weglot.weglotkey.secret  | The Weglot API key you will find in the Weglot dashbaord for your project |
-|---------------------------------|--------------------------------------------------------------------------------------|
 
 
 
 
 For more technical informations : [documentation](./project.md)
 
+- [Installation](#installation)
 - [Mobile Library](#mobile-library)
     - [Shared Actions](#shared-actions)
         - [InstallWeglot](#installweglot)
+
+
+## Installation
+
+1. In your Convertigo Studio use `File->Import->Convertigo->Convertigo Project` and hit the `Next` button
+2. In the dialog `Project remote URL` field, paste the text below:
+   <table>
+     <tr><td>Usage</td><td>Click the copy button</td></tr>
+     <tr><td>To contribute</td><td>
+
+     ```
+     lib_Weglot=https://github.com/convertigo/c8oprj-lib-weglot.git:branch=master
+     ```
+     </td></tr>
+     <tr><td>To simply use</td><td>
+
+     ```
+     lib_Weglot=https://github.com/convertigo/c8oprj-lib-weglot/archive/master.zip
+     ```
+     </td></tr>
+    </table>
+3. Click the `Finish` button. This will automatically import the __lib_Weglot__ project
 
 
 ## Mobile Library

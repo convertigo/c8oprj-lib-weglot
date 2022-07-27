@@ -12,7 +12,6 @@ To use this library you will have to configure the following symbols in the Admi
 | Symbol | Usage |
 |----------|---------|
 |lib_weglot.weglotkey.secret  | The Weglot API key you will find in the Weglot dashbaord for your project |
-|---------------------------------|--------------------------------------------------------------------------------------|
 
 
 
