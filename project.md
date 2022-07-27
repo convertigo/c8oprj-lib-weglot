@@ -59,6 +59,6 @@ My First Page as root page
 
 ### ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/uiactionstack_color_16x16.png?raw=true "UIActionStack") InstallWeglot
 
-This Shared Action must be invoked in your app to initilize Weglot
+This Shared Action must be invoked in your app to initialize Weglot
 </p></blockquote></details>
 </p></blockquote></details>

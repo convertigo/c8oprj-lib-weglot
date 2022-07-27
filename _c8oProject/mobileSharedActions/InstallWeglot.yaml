@@ -1,4 +1,4 @@
-comment: This Shared Action must be invoked in your app to initilize Weglot
+comment: This Shared Action must be invoked in your app to initialize Weglot
 ↓InstallScript [ngx.components.UICustomAction-1658767465472]: 
   actionValue: 
     - xmlizable: 

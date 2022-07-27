@@ -56,7 +56,7 @@ Describes the mobile application global properties
 
 #### InstallWeglot
 
-This Shared Action must be invoked in your app to initilize Weglot
+This Shared Action must be invoked in your app to initialize Weglot
 
 
 
